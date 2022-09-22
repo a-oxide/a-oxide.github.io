@@ -15,12 +15,12 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
-    keywords = ""
+    title = "Diving in"
+    subtitle = ""
+    keywords = "flipper flipperzero f0 nfc rfid subghz badusb ducky"
     copyright = ""
     menuMore = "Show more"
-    writtenBy = "Written by"
+    writtenBy = "Written by atr"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
