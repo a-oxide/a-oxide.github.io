@@ -16,11 +16,11 @@ paginate = 5
 [languages]
   [languages.en]
     title = "Diving in"
-    subtitle = ""
+    subtitle = "atr"
     keywords = "flipper flipperzero f0 nfc rfid subghz badusb ducky"
     copyright = ""
     menuMore = "Show more"
-    writtenBy = "Written by atr"
+    writtenBy = "atr"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
