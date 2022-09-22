@@ -1,12 +1,12 @@
----
++++
 title: "Cracking Mifare Classic"
 date: "2022-09-2022"
 author: "atr"
----
++++
 
-## Header 2
+## Cracking Mifare Classic 1K
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. **Donec quis dolor nec nunc mollis interdum vel in purus**. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.
+When arriving at university I was given an NFC ID card, complete with a Magstripe as an alternative method of authentication. Using my [Flipper Zero] (https://flipperzero.one/) equipped with a custom firmware that i'm not yet to release, I quickly identified it as a Mifare Classik 1K, a format of NFC card of which I was unfamiliar. After some brief research, [(specifically on Linus Karlsson's blog)] (https://linuskarlsson.se/blog/acr122u-mfcuk-and-mfoc-cracking-mifare-classic-on-arch-linux/) I discovered that the entire cryptographic cipher used on these encrypted NFC cards was reverse engineered by several researchers. Thus, I began the task of using my Flipper (my only NFC interface besides my dated iPhone) to crack my ID card.
 
 > Fusce pharetra suscipit orci nec tempor. Quisque vitae sem sit amet sem mollis consequat. Sed at imperdiet lorem. Vestibulum pharetra faucibus odio, ac feugiat tellus sollicitudin at. Pellentesque varius tristique mi imperdiet dapibus. Duis orci odio, sodales lacinia venenatis sit amet, feugiat et diam.
 
